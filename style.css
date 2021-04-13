@@ -1,16 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300&display=swap');
+
+html {
+	background-color: antiquewhite;
+	font-family: "Hind Vadodara";
+  }
+
 #container
 {
 	margin: 0 30px;
 	background: #fff;
+	background: antiquewhite;
 }
 
 #header
 {
 	background: #ccc;
 	padding: 20px;
+	background: rgb(195,34,34);
+	background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(60,219,39,1) 50%, rgba(80,45,253,1) 100%);
+	border-radius: 10px;
 }
 
-#header h1 { margin: 0; }
+#header h1 { 
+	margin: 0; 
+	text-align: center;
+	font-family: "Rubik Mono One";
+}
+
+h2 {
+	text-align: center;
+	font-family: "Rubik Mono One";
+  }
+  
 
 #navigation
 {
@@ -52,12 +74,11 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background: rgb(195,34,34);
+	background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(60,219,39,1) 50%, rgba(80,45,253,1) 100%);
 }
 
 #edito h2
@@ -77,12 +98,11 @@
 	border-radius: 18px;
 	-webkit-box-shadow: 0px 0px 6px #000000;
 	box-shadow: 0px 0px 6px #000000;
-	background-image: -webkit-gradient(linear, left top, right top, from(#d6e1ff), to(#dbffe7));
-	background-image: -webkit-linear-gradient(left, #d6e1ff, #dbffe7);
-	background-image: linear-gradient(left, #d6e1ff, #dbffe7);
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background: rgb(195,34,34);
+	background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(60,219,39,1) 50%, rgba(80,45,253,1) 100%);
 }
 
 #footer
@@ -92,6 +112,10 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+	background: rgb(195,34,34);
+	background: linear-gradient(90deg, rgba(195,34,34,1) 0%, rgba(60,219,39,1) 50%, rgba(80,45,253,1) 100%);
+	border-radius: 10px;
+	text-align: center;
 }
 
 p img {
